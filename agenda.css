@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cld
+{
+    width: 60%;
+    height: 80%;
+    background-color: gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+#entete_cld
+{
+width: 100%;
+height: 10%;
+background-color: #d9d9d9;
+display: flex;
+flex-direction: column;
+}
+#janv
+{
+    width: 100%;
+    height: ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#avant_apres
+{
+    width: 100%;
+    height: 33,33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(60, 60, 60);
+}
+.cld_btn
+{
+    width: 40%;
+    height: 100%;
+    border: none;
+    background-color: rgb(90, 90, 90);
+    outline: none;
+    transition: 0.2s;
+    color: white;
+}
+.cld_btn:hover
+{
+    background-color: rgb(75, 75, 75);
+}
+#ls_jours
+{
+    width:100%;
+    height: 82%;
+    background: rgb(143, 143, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#jours
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jour
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+    font-size: 10px;
+}
+.semaine
+{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.case
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    color: white;
+    margin: 0;
+    font-size: 19px;
+}
+.case:hover
+{
+    background-color: rgb(110, 110, 110);
+}
