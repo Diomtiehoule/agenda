@@ -52,11 +52,21 @@ function calender(month , years){
         let monthsimulindex = (i +1) + (yearsimule - 2020)*12
 
         cld[i + 1] = {
-            daystart:
+            daystart: (cld[i].daystart + monthsimulelongueur[monthsimulindex - 1]) % 7,
+            length: monthsimulelongueur[monthsimulindex],
+            years: 2020 +Math.floor((i +1) / 12),
+            month: monthName[monthsimulindex]
+        }
+        if((cld[i + 1].month === undefined)){
+            cld[i+1].month = 'janvier'
+            cld[i+1].length = 31
         }
     }
 }
 
+for ( let i = 0; i < Case.length; i++){
+    Case[i].innerText = ''
+}
 calender()
  function getfevrierlength(years){
     if(years % 4 === 0){
